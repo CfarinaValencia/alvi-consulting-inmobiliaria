@@ -183,7 +183,7 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--color-secondary);
+  color:#d5d7da;
   line-height: 0;
 }
 
@@ -895,10 +895,11 @@ section {
 # Our Projects Section
 --------------------------------------------------------------*/
 .projects .portfolio-flters {
-  padding: 0;
+  padding: 0px;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+  
 }
 
 .projects .portfolio-flters li {
@@ -912,6 +913,17 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
+/*espacio de filtrado.*/
+.dropdown-toggle {
+  margin-right: 50px;
+  font-family: Roboto, sans-serif;
+  font-size: large;
+
+
+
+}
+
+
 
 .projects .portfolio-flters li:hover,
 .projects .portfolio-flters li.filter-active {
