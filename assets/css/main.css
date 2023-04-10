@@ -922,6 +922,16 @@ section {
 
 
 }
+.icon i span {
+  display: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icono i span {
+  text-align: center;
+}
+
 
 
 
