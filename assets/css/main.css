@@ -74,7 +74,7 @@ section {
 }
 
 .section-header h2  {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   position: relative;
   color: #2e3135;
@@ -101,11 +101,14 @@ section {
   margin: 0 auto 0 auto;
 }
 
-@media (min-width: 1199px) {
-  .section-header p {
-    max-width: 60%;
+@media (max-width: 700px) {
+  .section-header  h2 {
+    font-size: 18px;
   }
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -833,11 +836,34 @@ section {
   margin: 0;
 }
 
-@media (max-width: 575px) {
+/* @media (min-width: 330px) {
   .features .nav-link h4 {
-    font-size: 16px;
+    font-size: 15px;
+    margin-right:9px;
+    padding: 0px;
+  
   }
 }
+@media (min-width: 330px) {
+  .features .nav-link .icon i {
+    font-size: 25px;
+    margin-left: 9px;
+  }
+} */
+@media (max-width: 736px) { 
+  .nav-item {
+    flex-basis: 50%;
+  }
+  .icon {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+}
+
+
+
 
 .features .nav-link:hover {
   color: var(--color-primary);
@@ -1167,6 +1193,11 @@ section {
   padding-bottom: 20px;
   position: relative;
 }
+.titulo-alviny {
+  margin-top: 20px;
+  font-family: italic , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
 .alt-services h3:after {
   content: "";
